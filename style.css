@@ -1,10 +1,12 @@
 .nav-bar {
     background-color: #A8EBC4;
-    height: 120px;
+    height: 110px;
     padding-right: 90px;
+    float: left;
     top: 0;
     left: 0;
     right: 0;
+    
     position: absolute;
     display: flex;
     align-items: center;
@@ -15,10 +17,9 @@
     background-color: #308654;
     color: white;
     border-radius: 10px;
-
     border: 2px solid #599C7C;
-    width: 145px;
-    height: 45px;
+    width: 150px;
+    height: 50px;
     font-size: 20px;
 }
 
@@ -26,14 +27,19 @@
     background-color: #235f3c;
 }
 
+.logo {
+    padding-right: 83%;
+}
+
 .content-login {
+    border-top: width 50%;
     float: left;
     border: 3px solid #739C59;
     border-radius: 20px;
     width: 800px;
     height: 600px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -45,11 +51,12 @@ h1 {
     text-align: center;
 }
 
-.login {
-    position: relative;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
+
+.icon {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .input {
@@ -64,10 +71,13 @@ h1 {
     text-align: center;
 }
 
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 .forgot-password {
     font-size: 20px;
-
-
+    padding: 5000px 0px 0px 0px;
 }
 
 .btn-login {
@@ -79,14 +89,9 @@ h1 {
     border: 2px solid #51D78A;
     border-radius: 15px;
     color: white;
-    margin: 170px 0px 0px 320px;
+    margin: 170px 0px 0px -400px;
 }
 
 .btn-login:hover {
     background-color: #25633f;
-}
-
-.icon-pessoa {
-    margin: 600px 00px 60px 00px;
-    position: absolute;
 }

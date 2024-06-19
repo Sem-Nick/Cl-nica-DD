@@ -68,8 +68,7 @@ a {
 .input {
     text-align: center;
     font-size: 18px;
-    width: 100%;
-    max-width: 400px;
+    width: 70%;
     height: 20px;
     padding: 10px;
     border-radius: 12px;

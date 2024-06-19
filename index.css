@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    background-color: #A8EBC4;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px ;
+}
+
+.btn-create-account {
+    background-color: #308654;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #599C7C;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-create-account:hover {
+    background-color: #235f3c;
+}
+
+.btn-login {
+    background-color: #308654;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #599C7C;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #235f3c;
+}
+
+.logo {
+    padding-left: 50px;
+    flex: 1;
+}
+
+.sub-nav {
+    background-color: #308654;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+
+    color: white;
+    height: 50px;
+}
+
+.contato {
+    margin-left: 70%;
+}
+
+.menu {
+    float: left;
+    color: black;
+    border-top: 7px solid #308654; 
+    border-left: 1px solid #308654; 
+    border-right: 1px solid #308654; 
+    width: 8.9%;
+    margin: 1% 0% 0% 22%;
+    text-align: center;
+}
+
+.option {    
+    font-size: 23px;
+    a {
+        text-decoration: none;    
+        color: black;
+    }
+    padding: 6%;
+    text-align: center;
+    border-bottom: 1px solid #308654;
+    width: 8.9;
+
+}
+
+.style-bar {
+    float: left;
+    background-color: #A8EBC4;
+    border-top: 7px solid #308654; 
+    width: 45%;
+    height: 30px;
+    margin: 1% 0% 0% 1%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.carrossel {
+    float: left;
+    margin: 0.4% 0% 0% 1%;
+}

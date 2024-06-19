@@ -1,41 +1,43 @@
+body {
+    margin: 0;
+}
+
 .nav-bar {
     background-color: #A8EBC4;
-    height: 120px;
-    padding-right: 90px;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
+    height: 90px;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+    padding: 0 20px ;
 }
 
 .btn-create-account {
     background-color: #308654;
     color: white;
     border-radius: 10px;
-
     border: 2px solid #599C7C;
-    width: 145px;
-    height: 45px;
+    width: 150px;
+    height: 50px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .btn-create-account:hover {
     background-color: #235f3c;
 }
 
+.logo {
+    flex: 1;
+}
+
 .content-login {
-    float: left;
     border: 3px solid #739C59;
     border-radius: 20px;
-    width: 800px;
-    height: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 500px;
 }
 
 h1 {
@@ -45,48 +47,51 @@ h1 {
     text-align: center;
 }
 
-.login {
-    position: relative;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
+
+.icon {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputs {
+    text-align: center;
 }
 
 .input {
-    position: relative;
-    font-size: 20px;
-    float: left;
-    margin: 0px 0px 50px 220px;
-    width: 350px;
-    height: 30px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    padding: 10px;
     border-radius: 12px;
     border: 2px solid #739C59;
-    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .forgot-password {
     font-size: 20px;
-
-
+    padding: 5000px 0px 0px 0px;
 }
 
 .btn-login {
-    position: absolute;
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #308654;
     border: 2px solid #51D78A;
     border-radius: 15px;
     color: white;
-    margin: 170px 0px 0px 320px;
+    margin: 20px auto;
+    display: block;
 }
 
 .btn-login:hover {
     background-color: #25633f;
-}
-
-.icon-pessoa {
-    margin: 600px 00px 60px 00px;
-    position: absolute;
 }

@@ -94,20 +94,202 @@ a {
 
 }
 
+.carrossel {
+    float: left;
+    margin: 0.4% 0% 0% 1%;
+    width: 45%;
+    height: 20%;
+}
+
 .style-bar {
     float: left;
     background-color: #A8EBC4;
     border-top: 7px solid #308654; 
-    width: 45%;
+    width: 99.5%;
     height: 30px;
-    margin: 1% 0% 0% 1%;
-    text-align: center;
-    font-size: 18px;
+    margin: 1.5% 0% 1.5% 0%;
 }
 
-.carrossel {
-    float: left;
-    margin: 0.4% 0% 0% 1%;
-    width: 30%;
-    height: 20%;
+.galeria {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
+
+.galeria .imagens {
+    width: 400%;
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.galeria .imagens img {
+    width: 24.9%;
+}
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    25% { margin-left: 0; }
+    30% { margin-left: -100%; }
+    55% { margin-left: -100%; }
+    60% { margin-left: -200%; }
+    85% { margin-left: -200%; }
+    90% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+
+.line {
+    float: left;
+    background-color: #308654;
+    width: 55.1%;
+    height: 2px;
+    margin-top: 3%;
+    margin-left: 22%;
+}
+
+.cards {
+    padding: 50px 0px 10px 0px;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    float: left;    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+/* .cards2 {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+} */
+
+.cards2 {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .line1 {
+    float: left;
+}*/
+
+.linha1 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+} 
+
+.line1 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+} 
+
+.line2 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    
+}
+
+.linha2 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+/* .line3 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+} */
+
+footer {
+    display: flex;
+    justify-content: center;
+    float: left ;
+    background-color: #2B4435;
+    height: 700px;
+    width: 100%;
+}
+
+.content {
+    float: left;
+    background-color: blue;
+    width: 1000px;
+    height: 30%;
+    /* margin-bottom: 0; */
+    /* display: flex; */
+    /* justify-content: space-between;
+    padding: 0 50px; */
+    height: 100%;
+
+} 
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 50px; */
+    float: left;
+    /* padding: 20px 0px 10px 20px; */
+    height: 350px;
+
+}
+
+.foto1 {
+    display: flex;
+    background-color: aqua;
+    width: 575px;
+    height: 400px;
+    /* display: flex; 
+    justify-content: center; 
+    position: relative; 
+
+    padding-right: 70px;
+    float: left;
+    width: 300px; 
+}
+
+.foto2 {
+    display: flex;
+    background-color: antiquewhite;
+    width: 375px;
+    height: 400px;
+    /* position: relative; 
+    display: flex; 
+
+    padding-left: 35px;  
+    float: left;
+    width: 300px; */
+}
+
+/* .logo-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 0  0px;
+    float: left;
+    padding: 4% 80% 0% 5%;    
+    color: white;
+}
+
+.sobre {
+    display: flex;
+    float: left;
+
+} */

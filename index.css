@@ -66,9 +66,19 @@ a {
     height: 50px;
 }
 
-.contato {
-    margin-left: 70%;
+/* .endereco {
+    width: 100%;
+}*/
+
+.loc {
+    width: 3.8%;
 }
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+} 
 
 .menu {
     float: left;
@@ -159,66 +169,45 @@ a {
     float: left;    
     display: flex;
     justify-content: space-between;
-    padding: 0 12px;
+    padding: 0 20px;
+    width: 35%;
 }
 
-/* .cards2 {
+ .cards-line1 {
     width: 100%;
     float: left;
     padding-top: 60px;
     display: flex;
     justify-content: center;
-} */
-
-.cards2 {
-    width: 100%;
-    float: left;
-    padding-top: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-/* .line1 {
-    float: left;
-}*/
-
-.linha1 {
-    float: left;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
 } 
 
 .line1 {
+    display: flex;   
+}  
+
+.cards-line2 {
+    width: 100%; 
     float: left;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
+    justify-content: center; 
 } 
 
 .line2 {
-    float: left;
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-
-    
 }
 
-.linha2 {
+.cards-line3 {
+    width: 100%; 
     float: left;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
+    justify-content: center; 
+} 
 
+.line3 {
+    display: flex;
 }
-
-/* .line3 {
-    float: left;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-} */
 
 footer {
     display: flex;

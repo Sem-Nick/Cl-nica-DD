@@ -18,9 +18,9 @@ a {
 
 .btn-create-account {
     background-color: #308654;
+    border: 2px solid #599C7C;
     color: white;
     border-radius: 10px;
-    border: 2px solid #599C7C;
     width: 130px;
     height: 40px;
     font-size: 20px;
@@ -46,6 +46,8 @@ a {
     margin: 130px auto;
     padding: 20px;
     height: 500px;
+    display: flex;
+    justify-content: center ;
 }
 
 h1 {
@@ -68,7 +70,7 @@ h1 {
     padding: 10px;
     border-radius: 12px;
     border: 2px solid #739C59;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .input::-webkit-inner-spin-button {
@@ -76,26 +78,28 @@ h1 {
 }
 
 .forgot-password {
-
     color: #235f3c;
+    float: left;
     font-size: 20px;
-    padding: 0px 0px 100px 0px;
+    padding-left: 50%;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .btn-login {
-    width: 100%;
-    max-width: 120px;
+    width: 120px;
     height: 40px;
     font-size: 20px;
     background-color: #308654;
-    border: 2px solid #51D78A;
+    border: 2px solid #599C7C;
     border-radius: 10px;
     color: white;
-    margin: 20px auto;
-    display: block;
+    margin-left: 38%;
+    display: block;  
     cursor: pointer;
+    float: left;
 }
 
 .btn-login:hover {
-    background-color: #25633f;
+    background-color: #235f3c;
 }

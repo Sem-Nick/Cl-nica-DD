@@ -24,9 +24,9 @@ a {
 
 .btn-login {
     background-color: #308654;
+    border: 2px solid #599C7C;
     color: white;
     border-radius: 10px;
-    border: 2px solid #599C7C;
     padding: 10px 20px;
     font-size: 20px;    
     width: 120px;
@@ -39,7 +39,7 @@ a {
     background-color: #25633f;
 }
 
-.content-login {
+.content-register {
     border: 3px solid #739C59;
     border-radius: 20px;
     width: 80%;
@@ -90,11 +90,12 @@ a {
     height: 50px;
     font-size: 20px;
     background-color: #308654;
-    border: 2px solid #51D78A;
+    border: 2px solid #599C7C;
     border-radius: 10px;
     color: white;
     margin: 20px auto;
     display: block;
+    text-align: center;
 }
 
 

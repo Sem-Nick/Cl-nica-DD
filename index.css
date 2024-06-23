@@ -86,7 +86,7 @@ a {
     border-top: 7px solid #308654; 
     border-left: 1px solid #308654; 
     border-right: 1px solid #308654; 
-    width: 8.9%;
+    width: 15%;
     margin: 1% 0% 0% 22%;
     text-align: center;
 }
@@ -218,55 +218,55 @@ footer {
     width: 100%;
 }
 
-.content {
+/* .content {
     float: left;
     background-color: blue;
     width: 1000px;
     height: 30%;
-    /* margin-bottom: 0; */
-    /* display: flex; */
-    /* justify-content: space-between;
-    padding: 0 50px; */
+    margin-bottom: 0; 
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 50px; 
     height: 100%;
 
-} 
+}  */
 
-.fotos {
+./*fotos {
     display: flex;
     justify-content: space-between;
-    /* padding: 0px 50px; */
+    padding: 0px 50px; 
     float: left;
-    /* padding: 20px 0px 10px 20px; */
+    padding: 20px 0px 10px 20px; 
     height: 350px;
 
-}
+}*/
 
-.foto1 {
+/* .foto1 {
     display: flex;
     background-color: aqua;
     width: 575px;
     height: 400px;
-    /* display: flex; 
+    display: flex; 
     justify-content: center; 
     position: relative; 
 
     padding-right: 70px;
     float: left;
     width: 300px; 
-}
+} */
 
-.foto2 {
+/* .foto2 {
     display: flex;
     background-color: antiquewhite;
     width: 375px;
     height: 400px;
-    /* position: relative; 
+    position: relative; 
     display: flex; 
 
     padding-left: 35px;  
     float: left;
-    width: 300px; */
-}
+    width: 300px; 
+} */
 
 /* .logo-rodape {
     display: flex;
@@ -275,10 +275,10 @@ footer {
     float: left;
     padding: 4% 80% 0% 5%;    
     color: white;
-}
+} */
 
-.sobre {
+/*.sobre { 
     display: flex;
     float: left;
 
-} */
+}/*

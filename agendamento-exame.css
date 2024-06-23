@@ -1,0 +1,109 @@
+.principal {
+    width: 70%; 
+    height: 900px;
+    margin: 30px 10% 0% 15%;
+}
+
+.title-bar {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100.5%;
+    height: 80px;
+    background-color: #308654;
+    float: left;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 90%;
+}
+
+.agendamento {
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid #255338;
+    float: left;
+    height: 270px;
+    color: #255338;
+} 
+
+label {
+    font-family: sans-serif;
+    font-size: 19px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 170px;
+    height: 19px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #255338;
+    margin-bottom: 30px;    
+}
+
+select {
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #255338;  
+    color: #255338;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.datas {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 22px;
+}
+
+.linha1 {
+    padding: 40px 0px 0px 0px;
+    margin-right: 100px;
+    width: 100%;
+    float: left;
+}
+
+.lines {
+    float: left; 
+    padding-left: 25px;
+}
+
+.linha2 {
+    margin-right: 100px;
+    width: 100%;
+    float: left;
+}  
+
+
+
+.linha3 {
+    margin-right: 100px;
+    width: 100%;
+    float: left;
+}  
+
+.linha4 {
+    margin-right: 100px;
+    width: 100%;
+    float: left;
+}
+
+.btn {
+    margin: 20px 40% 0px 43%;
+    background-color: #2C734A;
+    color: white;
+    border: 2px solid #599C7C;
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #235f3c;
+}

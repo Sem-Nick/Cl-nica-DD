@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial | DD</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="agendamento-consulta.css  " type="text/css">
+    <link rel="shortcut icon" type="imagem/svg" href="fotos/logo/cabecalho.svg">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="fotos/logo/logo.svg">
+            </a>
+        </div>
+        <div class="meu-perfil">
+            <img src="fotos/icones/icon-perfil.svg" alt="Perfil">
+        </div>
+    </div>
+    <div class="sub-nav">
+        <div class="endereco">
+            <a href="https://www.google.com/maps/place/R.+F%C3%A9lix+Pacheco,+1825+-+Centro+(Sul),+Teresina+-+PI,+64001-160/@-5.0908739,-42.8081011,17z/data=!3m1!4b1!4m6!3m5!1s0x78e3761076ab9a5:0x822b2e206d199bc7!8m2!3d-5.0908739!4d-42.8081011!16s%2Fg%2F11bw40d14q?entry=ttu"
+                target="_blank">R. Félix Pacheco, 1825 - Centro (Sul) Teresina/PI-64001-160</a>
+        </div>
+        <div class="contato">
+            <a href="">
+                <img src="fotos/icones/icon-wpp.svg">
+            </a>
+            <a href="https://www.instagram.com/dermadoctorsaude?igsh=aWZwbjhmczZjMHZn" target="_blank">
+                <img src="fotos/icones/icon-insta.svg">
+            </a>
+            <a href="">
+                <img src="fotos/icones/icon-facebook.svg">
+            </a>
+            <a href="">
+                <img src="fotos/icones/icon-x.svg">
+            </a>
+        </div>
+    </div>
+
+    <div class="principal">
+        <div class="title-bar">
+            <div class="title">
+                <h1>Agende sua consulta na DermaDoctor!</h1>
+            </div>
+            <div class="text">
+                Há 12 anos cuidando da sua saúde
+            </div>
+        </div>
+
+        <div class="agendamento">
+            <form action="post">
+
+                <div class="linha1">
+                    <div class="lines">
+                        <label for="nome">Nome:</label>
+                        <input type="text" placeholder="Ex.: Carleando Noleto">
+                    </div>
+
+                    <div class="lines">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" placeholder="Ex.: 123.456.789-10">
+                    </div>
+
+                    <div class="lines">
+                        <label for="data-nascimento">Data de nascimento:</label>
+                        <input type="date" class="datas">
+                    </div>
+                </div>
+
+                <div class="linha2">
+                    <div class="lines">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Ex.: meunome@gmail.com">
+                    </div>
+
+                    <div class="lines">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex.: 99 9999-9999"
+                            maxlength="11" minlength="10" required />
+                    </div>
+
+                    <div class="lines">
+                        <label for="endereço">Endereço:</label>
+                        <input type="text" placeholder="Ex.: Rua Dirce Oliveira, Ininga">
+                    </div>
+                </div>
+
+                <div class="linha3">
+                    <div class="lines">
+                        <label for="sexo">Sexo:</label>
+                        <select name="sexo" id="sexo">
+                            <option value="male">
+                                Masculino
+                            </option>
+
+                            <option value="female">
+                                Feminino
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="lines">
+                        <label for="especialidades">Especialidades:</label>
+                        <select name="especialidades" id="especialidade">
+                            <option value="ortopedista">Cardiologia</option>
+                            <option value="ortopedista">Clínica Geral</option>
+                            <option value="ortopedista">Dermatologia</option>
+                            <option value="ortopedista">Fonoaudiologia</option>
+                            <option value="ortopedista">Ginecologia</option>
+                            <option value="ortopedista">Oftalmologia</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Otorrinolaringologia</option>
+                        </select>
+                    </div>
+
+                    <div class="lines">
+                        <label for="convenios">Convênios:</label>
+                        <select name="especialidades" id="especialidade">
+                            <option value="ortopedista">Conab</option>
+                            <option value="ortopedista">Fundação Assefaz</option>
+                            <option value="ortopedista">GEAP</option>
+                            <option value="ortopedista">IAPEP</option>
+                            <option value="ortopedista">IPMT</option>
+                            <option value="ortopedista">Pro-Social</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="linha4">
+                    <div class="lines">
+                        <label for="medico">Médico de preferência:</label>
+                        <input type="text" placeholder="Ex.: Dra. Vilmara Moura">
+                    </div>
+
+                    <div class="lines">
+                        <label for="data-consulta">Data:</label>
+                        <input type="date" class="datas">
+                    </div>
+
+                    <div class="lines">
+                        <label for="especialidades">Horário:</label>
+                        <select name="especialidades" id="especialidade">
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                            <option value="ortopedista">Ortopedista</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
